@@ -3,6 +3,8 @@ import './App.css'
 import Header from './components/Header'
 import About from './components/About'
 import Contact from './components/Contact'
+import Form from './components/Form'
+import posts from "../db.json"
 function App() {
 
 
@@ -10,6 +12,7 @@ function App() {
     <>
      <Header/>
      <About/>
+     <Form />
     </>
   )
 }
