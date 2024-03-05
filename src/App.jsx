@@ -1,14 +1,12 @@
-import React, { useState } from 'react';
-import './App.css';
-import Header from './components/Header';
-import SearchButton from './components/SearchButton';
-
+import React, { useState } from "react";
+import "./App.css";
+import Header from "./components/Header";
+import SearchButton from "./components/SearchButton";
 
 function App() {
   const handleSearch = (searchTerm) => {
     console.log("Searching for:", searchTerm);
   };
-
 
   return (
     <div>
@@ -16,6 +14,6 @@ function App() {
       <SearchButton onSearch={handleSearch} />
     </div>
   );
-  }
+}
 
 export default App;
