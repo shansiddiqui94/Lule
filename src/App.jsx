@@ -1,14 +1,21 @@
-import { useState } from 'react'
-import './App.css'
-import Header from './components/Header'
+import React, { useState } from 'react';
+import './App.css';
+import Header from './components/Header';
+import SearchButton from './components/SearchButton';
+
+
 function App() {
+  const handleSearch = (searchTerm) => {
+    console.log("Searching for:", searchTerm);
+  };
 
 
   return (
-    <>
-     <Header/>
-    </>
-  )
-}
+    <div>
+      <h1>LULe</h1>
+      <SearchButton onSearch={handleSearch} />
+    </div>
+  );
+  }
 
-export default App
+export default App;
