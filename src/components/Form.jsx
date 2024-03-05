@@ -22,8 +22,11 @@ function Form() {
     function handleSubmit(e){
         e.preventDefault()
         alert("Successfully Posted")
+        
     }
 
+
+    // in our handleSubmit we are doing a fetch request and we will pass our states in through there to be added into our DB.json
 
   return (
 
