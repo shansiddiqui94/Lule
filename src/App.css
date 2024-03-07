@@ -5,6 +5,13 @@
   text-align: center;
 }
 
+
+.navbar {
+position: sticky;
+top: 0;
+z-index: 100;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
