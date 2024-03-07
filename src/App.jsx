@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import Header from "./components/Header";
-import SearchButton from "./components/SearchButton";
+import SearchButton from "./components/SearchBar";
 
 function App() {
   const handleSearch = (searchTerm) => {
