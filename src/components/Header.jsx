@@ -1,10 +1,11 @@
 import React from 'react'
-
+import Contact from './Contact'
 function Header() {
   return (
-    <div  className="header">
+    <nav  className="navbar">
+      <Contact/>
         <h1>This is LUL˜e</h1>
-    </div>
+    </nav>
   )
 }
 
