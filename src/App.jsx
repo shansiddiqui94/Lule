@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Header from './components/Header';
- import About from './components/About';
+import About from './components/About.jsx'
 import Contact from './components/Contact';
 import Form from './components/Form';
-import NavBar from './components/NavBar'; // Importing NavBar component
+import NavBar from './components/NavBar.jsx'; // Importing NavBar component
 import DeletePost from './components/DeletePost';
 import PlantCard from './components/PlantCard';
+
+// import { BrowserRouter } from 'react-router-dom';
 // import PlantCards from './components/PlantCards';
 
 
@@ -47,13 +49,13 @@ function App() {
 
 
   return (
-   
+  
     <div className="container">
-      <NavBar /> {/* Adding NavBar */}
+      <NavBar /> 
       <Header />
+      <About />
       <Contact />
       <Form blogInfo={blogInfo} setBlogInfo={setBlogInfo} />
-      <PlantCard/>
 
       <div className="card-container">
   {blogInfo.map((post) => (
@@ -68,6 +70,7 @@ function App() {
   ))}
 </div>
 </div>
+
   );
 }
 

@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between; /* Align items horizontally with space between */
+    align-items: center; /* Vertically center items */
+    padding: 0.5rem 1rem; /* Reduced padding for cleaner look */
+    background-color: #f0f0f0; /* Optional background color */
+    /* Optional border for subtle separation */
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    margin: 0; /* Remove default margin */
+    font-size: 1.5rem; /* Adjust font size as desired */
+    font-weight: bold; /* Make the logo text bolder */
+  }
+  
+  /* Remove bullet points from PlantCard (assuming it uses a list) */
+  .PlantCard ul {
+    list-style: none;
+    padding: 0;
+  }
+  
