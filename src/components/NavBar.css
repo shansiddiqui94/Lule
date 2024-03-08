@@ -1,0 +1,17 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    float: left; /* Make the list items float horizontally */
+    margin-right: 20px; /* Add some space between list items */
+  }
+  
+  /* Align the navbar to the left */
+  .navbar {
+    text-align: left;
+  }
+  

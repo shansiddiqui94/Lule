@@ -4,7 +4,7 @@ function Header() {
   return (
     <nav  className="navbar">
       <Contact/>
-        <h1>This is LUL˜e</h1>
+        <h1>This is LULe</h1>
     </nav>
   )
 }
